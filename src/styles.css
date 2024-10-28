@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .curso {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background: #f9f9f9;
+  }
+  /* You can add global styles to this file, and also import other style files */
