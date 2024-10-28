@@ -1,4 +1,5 @@
 <h2>Lista de Cursos</h2>
+<<<<<<< HEAD
 
 <div class="curso-lista">
   <div *ngIf="cursos.length === 0">
@@ -40,3 +41,9 @@
     <button (click)="resta()">Resta</button>
     <button (click)="mul()">Multiplicacion</button>
     <button (click)="div()">Division</button>
+=======
+<div *ngFor="let curso of cursos" class="curso">
+  <h3>{{ curso.nombre }}</h3>
+  <p>{{ curso.descripcion }}</p>
+</div>
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb

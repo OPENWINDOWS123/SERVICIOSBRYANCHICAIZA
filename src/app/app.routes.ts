@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+<<<<<<< HEAD
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { MedioComponent } from './pages/inicio/medio/medio.component';
 import { FinComponent } from './pages/inicio/fin/fin.component';
@@ -22,3 +23,7 @@ export const routes: Routes = [
     }
    
 ];
+=======
+
+export const routes: Routes = [];
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb

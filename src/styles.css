@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
  
   
@@ -52,3 +53,16 @@ h3 {
     margin-top: 20px;
     color: #ff4081; /* Color distintivo para encabezados */
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .curso {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background: #f9f9f9;
+  }
+  /* You can add global styles to this file, and also import other style files */
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CursoService } from '../curso.service';
+<<<<<<< HEAD
 import { FormsModule } from '@angular/forms';
 import { CommonModule, NgFor, NgIf } from '@angular/common';
 import { RouterModule, RouterOutlet } from '@angular/router';
@@ -12,10 +13,13 @@ interface Curso {
   duracion: number | null ; // Campo para la duración en semanas
 
 }
+=======
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
 
 @Component({
   selector: 'app-curso-lista',
   standalone: true,
+<<<<<<< HEAD
   imports: [FormsModule, NgFor,NgIf,CommonModule,RouterModule,RouterOutlet],
   templateUrl: './curso-lista.component.html',
   styleUrls: ['./curso-lista.component.css'] // Corrección aquí
@@ -99,3 +103,19 @@ prepararModificacion(curso: Curso): void {
 }
 
 }
+=======
+  imports: [],
+  templateUrl: './curso-lista.component.html',
+  styleUrl: './curso-lista.component.css'
+})
+export class CursoListaComponent implements OnInit {
+     cursos:any[] =[];
+
+   constructor(private cursoService: CursoService){}
+
+  ngOnInit(): void {
+    this.cursos = this.cursoService.getCursos();
+  }
+
+}
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb

@@ -46,7 +46,11 @@
 
   h1 {
     font-size: 3.125rem;
+<<<<<<< HEAD
     color: #ffffff;
+=======
+    color: var(--gray-900);
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
     font-weight: 500;
     line-height: 100%;
     letter-spacing: -0.125rem;
@@ -225,6 +229,7 @@
           <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
         </defs>
       </svg>
+<<<<<<< HEAD
       <h1>Bienvenido a la Aplicación de TAREAS</h1>
 
       <!-- Componente para registrar un nuevo curso -->
@@ -239,12 +244,27 @@
 
    
   
+=======
+      <h1>Hello, {{ title }}</h1>
+      <h1>Gestión de Cursos</h1>
+      <app-curso-form></app-curso-form>
+      <app-curso-lista></app-curso-lista>
+
+      <p>Congratulations! Your app is running. 🎉</p>
+    </div>
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <div class="pill-group">
         @for (item of [
           { title: 'Explore the Docs', link: 'https://angular.dev' },
           { title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials' },
+<<<<<<< HEAD
+=======
+          { title: 'CLI Docs', link: 'https://angular.dev/tools/cli' },
+          { title: 'Angular Language Service', link: 'https://angular.dev/tools/language-service' },
+          { title: 'Angular DevTools', link: 'https://angular.dev/tools/devtools' },
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
         ]; track item.title) {
           <a
             class="pill"
@@ -252,7 +272,10 @@
             target="_blank"
             rel="noopener"
           >
+<<<<<<< HEAD
           
+=======
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
             <span>{{ item.title }}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -267,6 +290,7 @@
             </svg>
           </a>
         }
+<<<<<<< HEAD
         <!----------INICIO-------------->
 
      <a
@@ -334,6 +358,12 @@
       <div class="social-links">
         <a
           href="https://github.com/OPENWINDOWS123"
+=======
+      </div>
+      <div class="social-links">
+        <a
+          href="https://github.com/angular/angular"
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
           aria-label="Github"
           target="_blank"
           rel="noopener"
@@ -352,7 +382,30 @@
           </svg>
         </a>
         <a
+<<<<<<< HEAD
           href="https://www.youtube.com/watch?v=ICuYH-RuVrU"
+=======
+          href="https://twitter.com/angular"
+          aria-label="Twitter"
+          target="_blank"
+          rel="noopener"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            alt="Twitter"
+          >
+            <path
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCbn1OgGei-DV7aSRo_HaAiw"
+>>>>>>> b16185c476f0ccb281748b66bc3af2287a0c9aeb
           aria-label="Youtube"
           target="_blank"
           rel="noopener"
